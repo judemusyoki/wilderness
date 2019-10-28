@@ -21,6 +21,7 @@ p {
   color: #8f8f8f;
 }
 
+
 /* Containers */
 
 .container-fluid {
@@ -52,6 +53,10 @@ p {
   font-family: 'Ubuntu';
   font-size: 2.5rem;
   font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
 }
 
 .big-heading {
@@ -104,18 +109,79 @@ p {
   width: 15%;
 }
 
+/* Message Us section */
+
+#messageUs {
+  padding-top: 7%;
+}
+
+#messageUs i {
+  /* color: #347474; */
+  color: #fff;
+}
+
+#messageUs i:hover {
+  color: #295d5d;
+}
+
+/* Button */
+
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #347474;
+	-webkit-box-shadow: 0px 10px 14px -7px #347474;
+	box-shadow: 0px 10px 14px -7px #347474;
+	background-color:#347474;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #347474;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	/* font-family:Arial; */
+	font-size:21px;
+	/* font-weight:bold; */
+	padding:7px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #347474;
+}
+.myButton:hover {
+	background-color:#295d5d;
+  color: #fff;
+  text-decoration: none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Contacts section */
+
+#contacts i {
+  color: #347474;
+  padding-bottom: 1rem;
+}
+
+#contacts i:hover {
+  color: #295d5d;
+}
+
+.social-icon {
+  /* background-color: #fff; */
+  margin: 5px 10px;
+}
+
 /* Footer section */
 
+#footer p {
+  color: #fff;
+}
+
 #footer i {
-  color: #347474;
+  color: #fff;
   padding-bottom: 1rem;
 }
 
 #footer i:hover {
   color: #295d5d;
-}
-
-.social-icon {
-  background-color: #fff;
-  margin: 20px 10px;
 }
